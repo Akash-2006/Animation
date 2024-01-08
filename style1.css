@@ -1,0 +1,117 @@
+#page{
+  height: 1000px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+div{
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+  border: 2px solid black;
+  float: left;
+  margin-bottom: 30px;
+  transition-duration:1s ;
+}
+.one{
+  background-color: red;
+}
+.two{
+  background-color: blue;
+}
+.three{
+  background-color: orangered;
+}
+.one:hover{
+transform: translate(40px,-20px);
+transition-duration:1s ;
+}
+.two:hover{
+  transform: translateX(30px);
+  transition-duration:1s ;
+  }
+  .three:hover{
+    transform: translateY(50px);
+    transition-duration:1s ;  
+  }
+.four{
+  background-color: blue;
+}
+.four:hover{
+  transform: rotate3d(1,3,2,30deg);
+transition-duration: 3s;
+}
+.five{
+  background-color: aqua;
+}
+.five:hover{
+  transform: rotateX(-70deg);
+  transition-duration:4s ;
+}
+.six{
+  background-color: blueviolet;
+}
+.six:hover{
+  transform: rotateY(-70deg);
+  transition-duration:4s ;
+}
+.seven{
+  background-color: brown;
+}
+.seven:hover{
+transform: scale(2,4);
+transition-duration:1s ;
+}
+.eight{
+  background-color: darkcyan;
+  
+}
+.eight:hover{
+transform: scaleX(3);
+transition-duration:1s ;
+}
+.nine{
+  background-color: darkgoldenrod;
+}
+.nine:hover{
+transform: scaleY(3);
+transition-duration:1s ;
+}
+.ten{
+  background-color: gold;
+}
+.ten:hover{
+transform: skew(30deg,20deg);
+transition-duration:1s ;
+}
+.true{
+background-color: darkorchid;
+}
+.true:hover{
+transform: skewX(20deg);
+transition-duration:1s ;
+}
+.flase{
+  background-color: yellowgreen;
+}
+.flase:hover{
+  transform: skewZ(20deg);
+  transition-duration:1s ;
+}
+.bool{
+  background-color: orangered;
+
+
+}
+.bool:hover{
+  transform: rotate(30deg);
+  transition-delay: 1s;
+}
+.lok{
+  background-color: olivedrab;
+}
+.lok:hover{
+  transform: matrix(2,3,4,3,20,30);
+  transition-duration: 3s;
+}
