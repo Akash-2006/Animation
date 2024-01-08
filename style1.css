@@ -96,7 +96,7 @@ transition-duration:1s ;
   background-color: yellowgreen;
 }
 .flase:hover{
-  transform: skewZ(20deg);
+  transform: skewY(20deg);
   transition-duration:1s ;
 }
 .bool{
